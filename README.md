@@ -60,8 +60,8 @@ Flete Total Recaudado (Freight): $2,251,909.54
 ## 🛠️ 3. Estado del Proyecto e Hitos en Desarrollo
 Actualmente el proyecto se encuentra en la Fase de Modelado e Inteligencia de Negocio:
 
-Fase 1 (SQL y QA): Completada con éxito. Base de datos local activa e integridad referencial auditada.
+* **Fase 1 (SQL y QA):** Completada con éxito. Base de datos local activa e integridad referencial auditada.
 
-Fase 2 (ETL en Power Query): Parametrización del servidor mediante DB_Server y DB_Name, traducción automática de las categorías de portugués a inglés mediante combinación de datos (Merge), verticalización de objetivos de venta (Unpivot) y creación de la dimensión de tiempo dinámica Dim_Fecha en DAX.
+* **Fase 2 (ETL en Power Query):** Parametrización del servidor mediante DB_Server y DB_Name, traducción automática de las categorías de portugués a inglés mediante combinación de datos (Merge), verticalización de objetivos de venta (Unpivot) y creación de la dimensión de tiempo dinámica Dim_Fecha en DAX.
 
-Fase 3 (DAX y Métricas de Negocio): Implementación de más de 20 medidas de negocio organizadas en carpetas operativas (Ventas y Rentabilidad, Volumen de Operaciones, Inteligencia de Tiempo y Análisis Avanzado de Pareto).
+* **Fase 3 (DAX y Métricas de Negocio):** Implementación de más de 20 medidas de negocio organizadas en carpetas operativas (Ventas y Rentabilidad, Volumen de Operaciones, Inteligencia de Tiempo y Análisis Avanzado de Pareto).
