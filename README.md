@@ -105,7 +105,7 @@ Lógica analítica avanzada para segmentación dinámica de entidades, evaluacio
 
 ---
 
-## 🎨 4. Estructura e Interacción del Dashboard (Power BI)
+## 🎨 4. Estructura e Interacción del Dashboard (Power BI & Tableau)
 El cuadro de mando fue diseñado bajo un enfoque de User Experience (UX/UI) ejecutivo, con paletas de colores neutras y contrastes de acento para la toma de decisiones:
 
 ### 📄 Página 1: Visión General de Operaciones y Ventas (Executive Overview)
@@ -151,10 +151,16 @@ El cuadro de mando fue diseñado bajo un enfoque de User Experience (UX/UI) ejec
 
 **[x] Fase 4:** Diseño completo e interactivo del Dashboard en Power BI Desktop (UX/UI y Tooltips).
 
-**[ ] Fase 5 (Próximo Hito):** Migración a Tableau Desktop / Public.
+**[x] Fase 5:** Migración a Tableau Desktop / Public.
 
-Réplica del modelo relacional en Tableau Data Source.
+- Réplica del modelo relacional desde PostgreSQL a Tableau Data Source.
+  
+- Recreación de métricas mediante expresiones LOD (Level of Detail: FIXED, INCLUDE) equivalentes a las medidas DAX.
 
-Recreación de cálculos LOD (Level of Detail) equivalentes a las medidas DAX.
-
-Diseño de dashboards equivalentes optimizados para la plataforma de Tableau.
+- Recreación de dashboards interactivos optimizados para Tableau Public.
+  
+- **[ ] Fase 6 (Próximo Hito):** Análisis Exploratorio de Datos (EDA) y Automatización con Python.
+      
+- Creación de notebooks en Python utilizando pandas, numpy, matplotlib y seaborn para profundización estadística y detección de anomalías.
+- 
+- Scripts de procesamiento de datos automatizado y conexiones para extracción avanzada de datos.
